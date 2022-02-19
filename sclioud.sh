@@ -39,7 +39,3 @@ read choice
 printf "\n\nNow playing: %b${name[$choice]}%b\n" "$R" "$N"
 printf "$separator\n"
 mpv $soundcloud${href[$choice]}
-
-#TODO
-#keep play 1 song
-#play entire search list
