@@ -9,8 +9,6 @@ B="\033[1m"     #Bold
 Y="\033[33m"  	#Yellow
 M="\033[35m" 	#Magenta
 
-
-
 printf "%bSong or artist%b -> " "$M" "$N"
 read search
 search=$(echo $search | sed 's/ /\%20/g')
