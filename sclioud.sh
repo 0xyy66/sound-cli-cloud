@@ -31,7 +31,6 @@ while read line; do
 done <<< "$links"
 
 printf "\n%bChoose a song or an artist.%b\n" "$B" "$N"
-printf "If you searched for an artist, usually the first option is the artist profile. You know it by seeing a / in the path(yellow text)\n"
 printf "%bEnter index%b -> " "$M" "$N" 
 read choice
 
