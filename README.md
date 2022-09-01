@@ -1,4 +1,4 @@
-#SoundCliCloud
+# SoundCliCloud
 
 *Play SoundCloud songs on your terminal*
 
